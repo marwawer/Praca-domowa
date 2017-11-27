@@ -9,6 +9,5 @@ Dziesiętny system liczbowy jest obecnie na świecie podstawowym systemem stosow
 >>0, 1, 2, 3, 4, 5, 6, 7, 8, 9. 
 ##Liczby zapisuje się jako ciąg cyfr, z których każda jest mnożnikiem kolejnej potęgi liczby 10. Niekiedy dla poprawy czytelności cyfry grupuje się po trzy (Okcydent) lub cztery (część Orientu). Część całkowitą i ułamkową oddziela separator dziesiętny. 
 ##Przykładowy zapis 1456,23 z separatorem dziesiętnym w postaci przecinka oznacza
->>  ,  =  ∙ 10+  ∙ 10+  ∙ 10+  ∙ 10+  ∙ 10
-1.22*10¹+3*10²+4*10*∙∙10º+10¹+10²+10³+10³=
+>>1∙10³+4∙10²+5∙10¹+6∙10º+2∙10ˉ¹ +3∙10ˉ²=1000+400+50+6+0,2+0,03=1456,23
   
