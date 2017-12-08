@@ -21,3 +21,4 @@ Przykładowy zapis 1456,23 z separatorem dziesiętnym w postaci przecinka oznacz
 =======================
 system dwójkowy
 ---------------------
+ser
