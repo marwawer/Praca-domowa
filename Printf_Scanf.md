@@ -1,1 +1,1 @@
-Funkcja printf
+FUNKCJA PRINTF
