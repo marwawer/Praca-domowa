@@ -38,7 +38,8 @@ system dwójkowy
 O(n^2)
 (2^3)
 2^{2}$
-
+2<sup>3</sup>
+2 <sub>3</sub>
 O(n<sup>2</sup>)
 
 Testing <sub>subscript</sub> and <sup>superscript</sup>
