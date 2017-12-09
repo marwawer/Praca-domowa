@@ -26,13 +26,14 @@ Naturalny system dwójkowy (ang. NBS - Natural Binary System) jest najprostszym 
 Używał go już John Napier w XVI wieku, przy czym 0 i 1 zapisywał jako 
 >a i b. 
 
-Ojcem nowoczesnego systemu binarnego nazywany jest Gottfried Wilhelm Leibniz.
+Twórcą nowoczesnego systemu binarnego nazywany jest Gottfried Wilhelm Leibniz.
 Liczby zapisuje się jako ciąg cyfr 0 lub 1 (nazywany jest bitem, Binary Digit "dwójkowa cyfra") z których każda jest mnożnikiem kolejnej potęgi liczby 2. Możemy zapisać każdą liczbę. Część całkowitą i ułamkową odziela się przecinkiem lub kropką podobnie jak w sytemie dziesiętnym.
 >11010.10111
 
-Sytem binarny eykorzystuje się w elektronice i informatyce, mamy dwa stany 1 lub 0 ( minimalizuje ilość stanów do 2 napięci lub brak napięcia ; włączony wyłączony). 
+Sytem binarny wykorzystuje się w elektronice i informatyce, mamy dwa stany 1 lub 0 ( minimalizuje ilość stanów do 2 napięcie lub brak napięcia ; włączony wyłączony). 
 Dla odróźnienia od innych sytemów stsujemy indeks dolny "2" lub "B"
->10102
+>10102<sub>(2)</sub>
+10102<sub>(B)</sub>
 
 |8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
 | - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
