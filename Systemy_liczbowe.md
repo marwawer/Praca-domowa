@@ -38,4 +38,5 @@ Liczby zapisuje się jako ciąg cyfr 0 i 1 z których każda jest mnożnikiem ko
 >9630+0,83203125=9630,83203125
 
 
-<sup></sup>tag (<sub></sub>
+O(n<sup>2</sup>)
+O(n<sup>2</sup>)
