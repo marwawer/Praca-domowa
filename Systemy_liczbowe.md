@@ -35,6 +35,13 @@ system dwójkowy
 >0,5+0,25+0,0625+0,015625+0,00390625=0,83203125
 >9630+0,83203125=9630,83203125
 
-2=3  2+=3
+O(n^2)
+2^{2}$
 
-2 ^4^
+O(n<sup>2</sup>)
+
+Testing <sub>subscript</sub> and <sup>superscript</sup>
+
+Testing <sub>subscript <sub>subscript level 2</sub></sub>
+
+Testing <sup>superscript <sup>superscript level 2</sup></sup>
