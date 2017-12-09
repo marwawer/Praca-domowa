@@ -38,5 +38,8 @@ Liczby zapisuje się jako ciąg cyfr 0 i 1 z których każda jest mnożnikiem ko
 >9630+0,83203125=9630,83203125
 
 
-O(n<sup>2</sup>)
-O(n<sup>2</sup>)
+Testing <sub>subscript</sub> and <sup>superscript</sup>
+
+Testing <sub>subscript <sub>subscript level 2</sub></sub>
+
+Testing <sup>superscript <sup>superscript level 2</sup></sup>
