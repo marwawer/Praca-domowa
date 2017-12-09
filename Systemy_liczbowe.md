@@ -31,9 +31,14 @@ Liczby zapisuje się jako ciąg cyfr 0 lub 1 (nazywany jest bitem, Binary Digit 
 >11010.10111
 
 Sytem binarny wykorzystuje się w elektronice i informatyce, mamy dwa stany 1 lub 0 ( minimalizuje ilość stanów do 2 napięcie lub brak napięcia ; włączony wyłączony). 
-Dla odróźnienia od innych sytemów stsujemy indeks dolny "2" lub "B"
->10102<sub>(2)</sub>
-10102<sub>(B)</sub>
+Dla odróźnienia od innych sytemów stosujemy indeks dolny "2" lub "B"
+>11<sub>(2)</sub>=11<sub>(B)</sub>=3<sub>(10)</sub
+>(11 w sytemie binarnym to 3 w systemie dziesiętnym)          
+          
+          
+          
+          
+          
 
 |8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
 | - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
