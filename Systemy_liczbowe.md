@@ -1,6 +1,6 @@
 POZYCYJNE SYSTEMY LICZBOWE
 ====================================
-Dziesiętny system liczbowy (system dziesiątkowy, system decymalny, system arabski)
+Dziesiętny system liczbowy (dziesiątkowy,decymalny,arabski)
 -----------------------------------------------------
 Dziesiętny system liczbowy jest obecnie na świecie podstawowym systemem stosowanym niemal we wszystkich krajach. Pochodzi on z Indii, z których przedostał się do Europy za pośrednictwem Arabów, dlatego cyfry nazwano arabskimi.Największym zwolennikiem zamiany systemu liczbowego rzymskiego na arabskie był włoski matematyk Fibonacci (Leonardo z Pizzy).  Do XVI wieku stosowany był równolegle obok systemu rzymskiego w nauce, księgowości oraz tworzącej się w tych czasach bankowości. W oficjalnych dokumentach jednak nadal zamieniano liczby w zapisie arabskim na system rzymski. W końcu, dzięki praktycznym zaletom (głównie wygoda w obliczeniach arytmetycznych) system arabski niemal zupełnie wyparł system rzymski.
 
