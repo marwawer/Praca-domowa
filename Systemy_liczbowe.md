@@ -36,14 +36,11 @@ system dwójkowy
 >9630+0,83203125=9630,83203125
 
 O(n^2)
+
 (2^3)
+
 2^{2}$
+
 2<sup>3</sup>
-2 <sub>3</sub>
-O(n<sup>2</sup>)
 
-Testing <sub>subscript</sub> and <sup>superscript</sup>
 
-Testing <sub>subscript <sub>subscript level 2</sub></sub>
-
-Testing <sup>superscript <sup>superscript level 2</sup></sup>
