@@ -31,11 +31,18 @@ Liczby zapisuje się jako ciąg cyfr 0 lub 1 (nazywany jest bitem, Binary Digit 
 >11010.10111
 
 Sytem binarny wykorzystuje się w elektronice i informatyce, mamy dwa stany 1 lub 0 ( minimalizuje ilość stanów do 2 napięcie lub brak napięcia ; włączony wyłączony). 
-Dla odróźnienia od innych sytemów stosujemy indeks dolny "2" lub "B"
+Dla odróźnienia od innych sytemów stosujemy indeks dolny (2) lub (B).
 >11<sub>(2)</sub>=11<sub>(B)</sub>=3<sub>(10)</sub
->(11 w sytemie binarnym to 3 w systemie dziesiętnym)          
+          >(11 w sytemie binarnym to 3 w systemie dziesiętnym)          
           
-          
+System ósemkowy(oktalnym)  
+---------------------------
+System pozycyjny którego podstawą p=8. System posiada osiem cyfr:
+>0,1,2,3,4,5,6,7
+Liczby zapisuję się jako ciąg cyfr, która każda jest mnożnikiem kolejnej potęgi liczby 8. System ten można użyć do do skrócenia zapisu liczb dwójkowych. Liczba 8 to trzecia potęga dwójki. Każdym trzem cyfrom systemu binarnego (dwójkowego) odpowiada jedna cyfra systemu ósemkowego. 
+Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8)
+>11<sub>(8)</sub>=9<sub>(10)</sub> 
+          >(11 w systemie ósemkowym to 9 w sytemie dziesiętnym)
           
           
           
