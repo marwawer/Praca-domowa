@@ -23,7 +23,7 @@ System binarny (dwójkowy, zero jedynkowy)
 Naturalny system dwójkowy (ang. NBS - Natural Binary System) jest najprostszym systemem pozycyjnym, w którym podstawa p = 2. System posiada dwie cyfry 
 > 0 i 1
 
-Używał go już John Napier w XVI wieku, przy czym 0 i 1 zapisywał jako 
+Używał go już John Napier(matematyk szkocki) w XVI wieku, przy czym 0 i 1 zapisywał jako 
 >a i b. 
 
 Twórcą nowoczesnego systemu binarnego nazywany jest Gottfried Wilhelm Leibniz.
@@ -40,7 +40,7 @@ System ósemkowy(oktalnym)
 System pozycyjny którego podstawą p=8. System posiada osiem cyfr:
 >0,1,2,3,4,5,6,7
 Liczby zapisuję się jako ciąg cyfr, która każda jest mnożnikiem kolejnej potęgi liczby 8. System ten można użyć do do skrócenia zapisu liczb dwójkowych. Liczba 8 to trzecia potęga dwójki. Każdym trzem cyfrom systemu binarnego (dwójkowego) odpowiada jedna cyfra systemu ósemkowego. 
-Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8)
+Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8).
 >11<sub>(8)</sub>=9<sub>(10)</sub> 
           >(11 w systemie ósemkowym to 9 w sytemie dziesiętnym)
           
