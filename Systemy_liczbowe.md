@@ -22,6 +22,7 @@ Przykładowy zapis 1456,23 z separatorem dziesiętnym w postaci przecinka oznacz
 system dwójkowy
 ---------------------
 ser
+
 | 32 |16 | 8 |4|2|1|
 | - | - | - | - |  -| - |  
    | | |2³ | 2² | 2¹ |2º |
