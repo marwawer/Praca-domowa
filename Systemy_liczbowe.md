@@ -39,10 +39,28 @@ System ósemkowy(oktalnym)
 ---------------------------
 System pozycyjny którego podstawą p=8. System posiada osiem cyfr:
 >0,1,2,3,4,5,6,7
+
 Liczby zapisuję się jako ciąg cyfr, która każda jest mnożnikiem kolejnej potęgi liczby 8. System ten można użyć do do skrócenia zapisu liczb dwójkowych. Liczba 8 to trzecia potęga dwójki. Każdym trzem cyfrom systemu binarnego (dwójkowego) odpowiada jedna cyfra systemu ósemkowego. 
-Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8).
->11<sub>(8)</sub>=9<sub>(10)</sub> 
+Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8) lub (oct).
+
+>11<sub>(8)</sub>=9<sub>(10)</sub>=11<sub>(oct)</sub>=9<sub>(10)</sub> 
           >(11 w systemie ósemkowym to 9 w sytemie dziesiętnym)
+          
+System szesnastkowy(heksadecymalny)
+-----------------------------------
+
+System pozycyjny którego podstawą p=16. Sytem posiada 16 znaków (10 cyrf i 6 liter):
+>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+Aby uniknąć pomyłek  w kalkulatorach naukowych o siedmiosegmentowych wyświetlaczach LCD (b i d, zamiast B i D dla rozróżnienia wyświetlania, które wyglądają jak 8 i 0) stosuje się następujące oznaczenia: 
+>0,1,2,3,4,5,6,7,8,9,A,b,C,d,E,F
+
+Liczby zapisuję się jako ciąg znaków (cyfr lub liter), która każda jest mnożnikiem kolejnej potęgi liczby 16. Sytem wykorzystuje się w informatyce ponieważ pozwala zapisać większe liczby (więcej informacji) w mniejszej ilości pamięci. Liczba 16 to czwarta potęga dwójki. Każdym 4 cyfrom systemu dwójkowego odpowiada 1 znak systemu szesnastkowego.
+Dla odróżnienia od innych systemów liczbowych stosujemy indeks dolny (16) lub (hex).
+>B<sub>(16)</sub>=9<sub>(10)</sub>=B<sub>(hex)</sub>=9<sub>(10)</sub> 
+          >(B w systemie szesnastkowym to 11 w sytemie dziesiętnym)
+          
+          
           
           
           
