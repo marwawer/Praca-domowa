@@ -43,7 +43,7 @@ System pozycyjny którego podstawą p=8. System posiada osiem cyfr:
 Liczby zapisuję się jako ciąg cyfr, która każda jest mnożnikiem kolejnej potęgi liczby 8. System ten można użyć do do skrócenia zapisu liczb dwójkowych. Liczba 8 to trzecia potęga dwójki. Każdym trzem cyfrom systemu binarnego (dwójkowego) odpowiada jedna cyfra systemu ósemkowego. 
 Dla odróznienia od innych systemów liczbowych stosujemy indeks dolny (8) lub (oct).
 
->11<sub>(8)</sub>=9<sub>(10)</sub>=11<sub>(oct)</sub>=9<sub>(10)</sub> 
+>11<sub>(8)</sub>=11<sub>(oct)</sub>=9<sub>(10)</sub> 
           >(11 w systemie ósemkowym to 9 w sytemie dziesiętnym)
           
 System szesnastkowy(heksadecymalny)
@@ -57,7 +57,7 @@ Aby uniknąć pomyłek  w kalkulatorach naukowych o siedmiosegmentowych wyświet
 
 Liczby zapisuję się jako ciąg znaków (cyfr lub liter), która każda jest mnożnikiem kolejnej potęgi liczby 16. Sytem wykorzystuje się w informatyce ponieważ pozwala zapisać większe liczby (więcej informacji) w mniejszej ilości pamięci. Liczba 16 to czwarta potęga dwójki. Każdym 4 cyfrom systemu dwójkowego odpowiada 1 znak systemu szesnastkowego.
 Dla odróżnienia od innych systemów liczbowych stosujemy indeks dolny (16) lub (hex).
->B<sub>(16)</sub>=9<sub>(10)</sub>=B<sub>(hex)</sub>=9<sub>(10)</sub> 
+>B<sub>(16)</sub>B<sub>(hex)</sub>=9<sub>(10)</sub> 
           >(B w systemie szesnastkowym to 11 w sytemie dziesiętnym)
           
           
@@ -65,23 +65,4 @@ Dla odróżnienia od innych systemów liczbowych stosujemy indeks dolny (16) lub
           
           
 
-|8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
-| - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
-|2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
- | 1 |0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 1 | 1| 0 |
->8192+1024+256+128+16+8+4+2=9630
- 
- |0,5 |0,25 |0,125 |0,0625 |0,03125|0,015625|0,00390625|0,000976562
-| - | - | -| - | - | - |  - |  -| 
-|2<sup>-1</sup>|2<sup>-2</sup>|2<sup>-3</sup>|2<sup>-4</sup>|2<sup>-5</sup>|2<sup>-6</sup>|2<sup>-7</sup>|2<sup>-8</sup>|2<sup>-9</sup>|
- | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 0 |
- 
->0,5+0,25+0,0625+0,015625+0,00390625=0,83203125
->9630+0,83203125=9630,83203125
 
-
-Testing <sub>subscript</sub> and <sup>superscript</sup>
-
-Testing <sub>subscript <sub>subscript level 2</sub></sub>
-
-Testing <sup>superscript <sup>superscript level 2</sup></sup>
