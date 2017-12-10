@@ -112,9 +112,9 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 | 6 | 110 |
 | 7 | 111 |
 
-3      7     3(<sub>8</sub>) = 11111011(<sub>2</sub>)
+3      7     3(<sub>8</sub>) = 011   111     011 = 11111011(<sub>2</sub>)
 
-011  111    011
+
 
  Konwersja liczb z systemu binarnego na ósemkowy
  -----------------------------------------------
@@ -133,5 +133,5 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 | 6 | 110 |
 | 7 | 111 |
 
-11111011(<sub>2</sub>)= 011  111    011 = 373(<sub>8</sub>)
+11111011(<sub>2</sub>)= 011   111        011 = 373(<sub>8</sub>)
  
