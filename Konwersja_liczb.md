@@ -64,3 +64,11 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
 ## 1 metoda (potęgowanie) polega na dodawaniu kolejnych potęg liczby 2:
 11111011(<sub>2</sub>)
 >1x2<sup>7</sup>+1x2<sup>6</sup>+1x2<sup>5</sup>+1x2<sup>4</sup>+1x2<sup>3</sup>+0x2<sup>2</sup>+1x2<sup>1</sup>+1x2<sup>0</sup> =1x128 + 1x64 + 1x32 + 1x16 + 1x8 + 0x4 + 1x2 + 1x1 = 128 + 64 + 32 + 16 + 8 + 2 + 1 = 251
+## 2 metoda to dodawanie wag bitów z tabelki:
+
+8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
+| - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
+|2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
+ | 0 |0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1| 1 |
+ 
+>128 + 64 + 32 + 16 + 8 + 2 + 1 = 251
