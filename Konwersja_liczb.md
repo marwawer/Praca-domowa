@@ -3,6 +3,18 @@ KONWERSJA LICZB Z RÓŻNYCH SYSTEMÓW LICZBOWYCH
 Konwersja liczb z systemu 10 na 2 i odwrotnie
 ---------------------------------------------
 Liczbe zapisaną w systemie dziesiętnym dzielimy przez 2 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą 1 tak do końca
+| liczba dziesiętn | dzielimy przez 2 |reszta 0 V 1|
+| ------ | ------ |  ------ |
+|251 |125| 1|
+| 125|62|1|
+| 62 |31|0|
+| 31| 15|1|
+|15 | 7|1 |
+| 7| 3| 1 |
+| 3| 1| 1 |
+| 1| 1| 1 |
+Wynik odczytujemy od dołu do góry 11111011
+
 
 Druga metoda to wykorzystanie tabelki z potęgami liczby 2. Polega na tym, że znajdujemy w górnej pozycji liczbę o wartości 
 
