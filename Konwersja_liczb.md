@@ -115,3 +115,23 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 3      7     3(<sub>8</sub>) = 11111011(<sub>2</sub>)
 
 011  111    011
+
+ Konwersja liczb z systemu binarnego na ósemkowy
+ -----------------------------------------------
+ ## Liczbę binarną rozdzielamy na grupy 3 bitowe idąc od strony prawej ku lewej. Jeśli w ostatniej grupie jest mniej bitów, to brakujące bity uzupełniamy zerami. Teraz każdą z 3 bitowych grup zastępujemy cyfrą ósemkową zgodnie z tabelką konwersji.
+ 
+   Tabela konwersji dwójkowo ósemkowa
+    
+|Cyfra ósemkowa| cyfra binarna|
+|------------|------------|
+| 0 | 000 |
+| 1 | 001 |
+| 2 | 010 |
+| 3 | 011 |
+| 4 | 100 |
+| 5 | 101 |
+| 6 | 110 |
+| 7 | 111 |
+
+11111011(<sub>2</sub>)= 011  111    011 = 373(<sub>8</sub>)
+ 
