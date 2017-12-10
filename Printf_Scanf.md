@@ -71,3 +71,14 @@ Na liście argumentów możemy mieszać ze sobą zmienne różnych typów, liczb
 Istniej możliwość wyświetlenia danych przechowywanych w pamięci(buforze)
     
     printf(buf);
+lub:
+ 
+    printf("%s", zmienna);
+Aby określić ilość drukowanych cyfr do kodu formatującego można
+dodać kody długości:
+>%Xd %X.Xf np.
+
+    %4d − liczba dziesiętna na czterech pozycjach
+    %10f − liczba rzeczywista na 10 pozycjach
+    %10.2f − liczba rzeczywista na 10 pozycjach, 2 cyfry po przecinku
+     %.3f − liczba rzeczywista z dokladnoscią do 3 cyfr po przecinku 
