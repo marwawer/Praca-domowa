@@ -156,3 +156,27 @@ Konwersja liczb z systemu szesnastkowego na dziesiętny.
 ---------------------------------------------
 ## Dodajemy kolejne potęgi liczby 16 pomnożone przez ich wartości:
 FB(<sub>16</sub>)= 15x16<sup>1</sup> + 11x16<sup>0</sup> = 240 + 11 = 251(<sub>10</sub>)
+
+ Konwersja liczb z systemu szesnastkowego na binarny
+ -----------------------------------------------
+ ## Każdą cyfrę szesnastkową zastępujemy grupą 4 bitów wg tabelki konwersji. Grupy łączymy w jedną liczbę binarną, pomijamy skrajne zera z lewej strony.
+
+    Tabela konwersji dwójkowo ósemkowa
+    |Cyfra szesnastkowa| cyfra binarna|
+|------------|------------|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+| 8 | 1000 |
+| 9 | 1001 |
+| A | 1010 |
+| B | 1011 |
+| C | 1100 |
+| D | 1101 |
+| E | 1110 |
+| F | 1111 |
