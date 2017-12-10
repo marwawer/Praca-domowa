@@ -64,4 +64,4 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
 ## 1 metoda (potęgowanie) polega na dodawaniukolejnych potęg liczby 2:
 11111011(<sub>2</sub>)
 
-    1*2+1*2+1*2+1*2+1*2+0*2+1*2+1*2^0^
+>1*2+1*2+1*2+1*2+1*2+0*2+1*2+1*2^0^
