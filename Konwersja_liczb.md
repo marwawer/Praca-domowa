@@ -97,9 +97,10 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 
  Konwersja liczb z systemu ósemkowego na binarny
  -----------------------------------------------
- ## Każdą cyfrę ósemkową zastępujemy grupą 3 bitów wg tabelki konwersji. Grupy łączymy w jedną liczbę binarną.
+ ## Każdą cyfrę ósemkową zastępujemy grupą 3 bitów wg tabelki konwersji. Grupy łączymy w jedną liczbę binarną, pomijamy skrajne zera z lewej strony.
 
-|Tabela konwersji|
+    Tabela konwersji dwójkowo ósemkowa
+    
 |Cyfra ósemkowa| cyfra binarna|
 |------------|------------|
 | 0 | 000 |
