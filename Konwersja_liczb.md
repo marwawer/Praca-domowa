@@ -16,7 +16,7 @@ Konwersja liczb z systemu 10 na 2 i odwrotnie
 | 1| 0| 1 |
 
 Wynik odczytujemy od dołu do góry 11111011
-251=11111011
+251<sub>10</sub>=11111011<sub>2</sub>
 
 # Druga metoda to wykorzystanie tabelki z potęgami liczby 2. 
 >Polega na tym, że znajdujemy w górnej pozycji potęgę liczby 2 o największej wartości która mieści się w szukanej liczbie dziesiętnej i odejmuje je od siebie:
@@ -50,6 +50,7 @@ Wynik odczytujemy od dołu do góry 11111011
 Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgami których używaliśmy do odejmowania, pozostałe pozycje wpisujemy 0. Pomijamy zera z lewej strony. Odczytujemy wynik z tabeli dolnej:
 
     11111011
+    251<sub>10</sub>=11111011<sub>2</sub>
 
 8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
 | - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
