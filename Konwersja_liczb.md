@@ -61,7 +61,7 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
  
  Konwersja liczb z systemu 2 na 10.
 ---------------------------------------------
-## 1 metoda (potęgowanie) polega na dodawaniukolejnych potęg liczby 2:
+## 1 metoda (potęgowanie) polega na dodawaniu kolejnych potęg liczby 2:
 11111011(<sub>2</sub>)
 
->1*2<sup>7</sup>+1*2<sup>6</sup>+1*2<sup>5</sup>+1*2<sup>4</sup>+1*2<sup>3</sup>+0*2<sup>2</sup>+1*2<sup>1</sup>+1*2<sup>0</sup> =1 * 128 + 1*64 + 1 * 32 1 * 16 + 1 * 8 + 0 * 4 + 1 * 2 + 1 * 1 = 128 + 64 + 32 + 16 + 8 + 2 + 1 = 251
+1*2<sup>7</sup>+1*2<sup>6</sup>+1*2<sup>5</sup>+1*2<sup>4</sup>+1*2<sup>3</sup>+0*2<sup>2</sup>+1*2<sup>1</sup>+1*2<sup>0</sup> =1*128 + 1*64 + 1*32 + 1*16 + 1*8 + 0*4 + 1*2 + 1*1 = 128 + 64 + 32 + 16 + 8 + 2 + 1 = 251
