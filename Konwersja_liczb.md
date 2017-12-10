@@ -74,3 +74,20 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
  | 0 |0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1| 1 |
  
 >128 + 64 + 32 + 16 + 8 + 2 + 1 = 251(<sub>10</sub>)
+
+ Konwersja liczb z systemu 10 na ósemkowy.
+---------------------------------------------
+
+## 1 metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 2 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą 1 tak do końca
+251(<sub>10</sub>)
+
+| liczba dziesiętna |wynik dzielenia przez 8 |reszta  z dzielenia|
+| ------ | ------ |  ------ |
+|251 | 31 | 3|
+| 31 |  3 | 7|
+| 3  |    | 3|
+
+
+Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
+
+251(<sub>10</sub>)=11111011(<sub>2</sub>)
