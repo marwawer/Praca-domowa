@@ -140,8 +140,8 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 ## metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 16 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą przepisujemy resztę, tak do końca:
 251(<sub>10</sub>)
 
-W systemie szesnastkowym używamy 16 znaków:
-    0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+>W systemie szesnastkowym używamy 16 znaków:
+>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
 
 | liczba dziesiętna |wynik dzielenia przez 16 |reszta  z dzielenia|
 | ------ | ------ |  ------ |
