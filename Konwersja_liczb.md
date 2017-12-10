@@ -1,8 +1,8 @@
 KONWERSJA LICZB Z RÓŻNYCH SYSTEMÓW LICZBOWYCH
 ===========================================
-Konwersja liczb z systemu 10 na 2 i odwrotnie
+Konwersja liczb z systemu 10 na 2.
 ---------------------------------------------
-## Liczbe zapisaną w systemie dziesiętnym dzielimy przez 2 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą 1 tak do końca
+## 1 metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 2 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą 1 tak do końca
 
 | liczba dziesiętna |wynik dzielenia przez 2 |reszta 0 V 1|
 | ------ | ------ |  ------ |
@@ -17,9 +17,9 @@ Konwersja liczb z systemu 10 na 2 i odwrotnie
 
 Wynik odczytujemy od dołu do góry 11111011
 
-251<sub>10</sub>=11111011<sub>2</sub>
+251(<sub>10</sub>)=11111011(<sub>2</sub>)
 
-## Druga metoda to wykorzystanie tabelki z kolejnymi potęgami liczby 2. 
+## 2 metoda (odejmowanie) to wykorzystanie tabelki z kolejnymi potęgami liczby 2. 
 >Polega na tym, że znajdujemy w górnej pozycji potęgę liczby 2 o największej wartości która mieści się w szukanej liczbie dziesiętnej i odejmuje je od siebie:
 
     251 - 128 = 123
@@ -52,9 +52,14 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
 
     11111011
     
-251<sub>10</sub>=11111011<sub>2</sub>
+251(<sub>10</sub>)=11111011(<sub>2</sub>)
 
 8192 |4096 |2048|1024 |512 |256 |128 |64 | 32 |16 | 8 |4|2|1|
 | - | - | - | - | - | -| - | - | - | - | - | - |  -| - |  
 |2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
  | 0 |0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1| 1 |
+ 
+ Konwersja liczb z systemu 2 na 10.
+---------------------------------------------
+## 1 metoda (potęgowanie) polega na dodawaniu potęg:
+11111011(<sub>2</sub>)
