@@ -135,3 +135,15 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
 
 11111011(<sub>2</sub>)= 011_____111_____011 = 373(<sub>8</sub>)
  
+  Konwersja liczb z systemu dziesiętnego na szesnastkowy.
+---------------------------------------------
+## metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 16 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą przepisujemy resztę, tak do końca:
+251(<sub>10</sub>)
+
+| liczba dziesiętna |wynik dzielenia przez 16 |reszta  z dzielenia|
+| ------ | ------ |  ------ |
+|251 | 15 | 11=>B|
+| 15 |  0 |15=>F|
+
+Wynik odczytujemy od dołu do góry FB(<sub>16</sub>)
+251(<sub>10</sub>)=FB(<sub>16</sub>)
