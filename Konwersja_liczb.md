@@ -162,7 +162,8 @@ FB(<sub>16</sub>)= 15x16<sup>1</sup> + 11x16<sup>0</sup> = 240 + 11 = 251(<sub>1
  ## Każdą cyfrę szesnastkową zastępujemy grupą 4 bitów wg tabelki konwersji. Grupy łączymy w jedną liczbę binarną, pomijamy skrajne zera z lewej strony.
 
     Tabela konwersji dwójkowo ósemkowa
-    |Cyfra szesnastkowa| cyfra binarna|
+    
+|Cyfra szesnastkowa| cyfra binarna|
 |------------|------------|
 | 0 | 0000 |
 | 1 | 0001 |
