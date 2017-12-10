@@ -93,4 +93,23 @@ Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
  Konwersja liczb z systemu ósemkowego na dziesiętny.
 ---------------------------------------------
 ## Dodajemy kolejne potęgi liczby 8 pomnożone przez ich wartości:
-373(<sub>8</sub>)= 3X8<sup>3</sup> + 7x8<sup>1</sup> + 3X8<sup>0</sup> = 3x64 + 7x8 + 3x1 = 251(<sub>10</sub>)
+373(<sub>8</sub>)= 3x8<sup>3</sup> + 7x8<sup>1</sup> + 3X8<sup>0</sup> = 3x64 + 7x8 + 3x1 = 251(<sub>10</sub>)
+
+ Konwersja liczb z systemu ósemkowego na binarny
+ -----------------------------------------------
+ ## Każdą cyfrę ósemkową zastępujemy grupą 3 bitów wg tabelki konwersji. Grupy łączymy w jedną liczbę binarną.
+
+|Tabela konwersji|
+|Cyfra ósemkowa| cyfra binarna|
+|------------|------------|
+| 0 | 000 |
+| 1 | 001 |
+| 2 | 010 |
+| 3 | 011 |
+| 4 | 100 |
+| 5 | 101 |
+| 6 | 110 |
+| 7 | 111 |
+
+3   7   3(<sub>8</sub>) = 11111011(<sub>2</sub>)
+011 111 011
