@@ -6,20 +6,20 @@ Konwersja liczb z systemu 10 na 2.
 
 | liczba dziesiętna |wynik dzielenia przez 2 |reszta 0 V 1|
 | ------ | ------ |  ------ |
-|251 |125| 1|
-| 125|62|1|
-| 62 |31|0|
-| 31| 15|1|
-|15 | 7|1 |
-| 7| 3| 1 |
-| 3| 1| 1 |
-| 1| 0| 1 |
+|251 |125|1|
+| 125|62 |1|
+| 62 |31 |0|
+| 31 |15 |1|
+|15  | 7 |1|
+| 7  | 3 |1|
+| 3  | 1 |1|
+| 1  | 0 |1|
 
 Wynik odczytujemy od dołu do góry 11111011
 
 251(<sub>10</sub>)=11111011(<sub>2</sub>)
 
-## 2 metoda (odejmowanie) to wykorzystanie tabelki z kolejnymi potęgami liczby 2. 
+## 2 metoda (odejmowanie) to wykorzystanie tabelki z kolejnymi wagami bitów. 
 >Polega na tym, że znajdujemy w górnej pozycji potęgę liczby 2 o największej wartości która mieści się w szukanej liczbie dziesiętnej i odejmuje je od siebie:
 
     251 - 128 = 123
@@ -75,19 +75,22 @@ Otrzymujwynik zero koniec operacji. Teraz w tabelce wpisujemy 1 po tymi potęgam
  
 >128 + 64 + 32 + 16 + 8 + 2 + 1 = 251(<sub>10</sub>)
 
- Konwersja liczb z systemu 10 na ósemkowy.
+ Konwersja liczb z systemu dziesiętnego na ósemkowy.
 ---------------------------------------------
 
-## 1 metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 2 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą 1 tak do końca
+## metoda(dzielenie) liczbe zapisaną w systemie dziesiętnym dzielimy przez 8 jeśli wynik jest bez reszty piszemy 0 jeśli z resztą przepisujemy resztę, tak do końca:
 251(<sub>10</sub>)
 
 | liczba dziesiętna |wynik dzielenia przez 8 |reszta  z dzielenia|
 | ------ | ------ |  ------ |
 |251 | 31 | 3|
 | 31 |  3 | 7|
-| 3  |    | 3|
-
+| 3  |  0 | 3|
 
 Wynik odczytujemy od dołu do góry 373(<sub>8</sub>)
+251(<sub>10</sub>)=373(<sub>8</sub>)
 
-251(<sub>10</sub>)=11111011(<sub>2</sub>)
+ Konwersja liczb z systemu ósemkowego na dziesiętny.
+---------------------------------------------
+## Dodajemy kolejne potęgi liczby 8 pomnożone przez ich wartości:
+373(<sub>8</sub>)= 3X8<sup>3</sup> + 7x8<sup>1</sup> + 3X8<sup>0</sup> = 3x64 + 7x8 + 3x1 = 251(<sub>10</sub>)
