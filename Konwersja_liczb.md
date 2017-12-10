@@ -182,5 +182,32 @@ FB(<sub>16</sub>)= 15x16<sup>1</sup> + 11x16<sup>0</sup> = 240 + 11 = 251(<sub>1
 | E | 1110 |
 | F | 1111 |
 
-F_________B(<sub>16</sub>)
-1111____1011=1111011(<sub>2</sub>)
+F_________B(<sub>16</sub>) =>
+1111____1011=11111011(<sub>2</sub>)
+
+ Konwersja liczb z systemu binarnego na ósemkowy
+ -----------------------------------------------
+ ## Liczbę binarną rozdzielamy na grupy 4 bitowe idąc od strony prawej ku lewej. Jeśli w ostatniej grupie jest mniej bitów, to brakujące bity uzupełniamy zerami. Teraz każdą z 4 bitowych grup zastępujemy znakiem szesnastkowym zgodnie z tabelką konwersji.
+
+    Tabela konwersji dwójkowo ósemkowa
+    
+|Cyfra szesnastkowa| cyfra binarna|
+|------------|------------|
+| 0 | 0000 |
+| 1 | 0001 |
+| 2 | 0010 |
+| 3 | 0011 |
+| 4 | 0100 |
+| 5 | 0101 |
+| 6 | 0110 |
+| 7 | 0111 |
+| 8 | 1000 |
+| 9 | 1001 |
+| A | 1010 |
+| B | 1011 |
+| C | 1100 |
+| D | 1101 |
+| E | 1110 |
+| F | 1111 |
+
+11111011(<sub>2</sub>)=> 1111______1011 = FB(<sub>16</sub>)
