@@ -5,7 +5,7 @@ Takie wczytywanie i "wyrzucanie" danych w terminologii komputerowej nazywamy wej
 W C do komunikacji z użytkownikiem służą odpowiednie funkcje. Zresztą, do wielu zadań w C służą funkcje. Używając funkcji, nie musimy wiedzieć, w jaki sposób komputer wykonuje jakieś zadanie, interesuje nas tylko to, co ta funkcja robi. Funkcje niejako "wykonują za nas część pracy", ponieważ nie musimy pisać być może dziesiątek linijek kodu, żeby np. wypisać tekst na ekranie (wbrew pozorom - kod funkcji wyświetlającej tekst na ekranie jest dość skomplikowany).
 ## Funkcja printf()
 Jest to funkcja wyjścia , służy do wypisywania danych na ekran.Jest jedną z bardziej skomplikowanych funkcji i jednocześnie jedną z  najczęściej używanych funkcji w języku C.
- Tak wygląda najprostsze użycie tej funkcji. Tekst umieszczony w cudzysłowach wewnątrz nawiasów funkcji 
+ Tak wygląda najprostsze użycie tej funkcji.
  
      #include <stdio.h>
       int main(void)
@@ -16,3 +16,58 @@ Jest to funkcja wyjścia , służy do wypisywania danych na ekran.Jest jedną z 
 Po skompilowaniu i uruchomieniu komputer wyświetli na ekranie:
     
     Witaj swiecie!
+ Tekst umieszczony w cudzysłowach wewnątrz nawiasów funkcji nazywamy formatem lub tekstem sterującym, może zawierać:
+− zwykłe znaki (które są po prostu kopiowane na ekran)
+    
+    Witaj swiecje
+− znaki specyjalne:
+    
+    '\a' - alarm (sygnał akustyczny terminala)
+    '\b' - backspace (usuwa poprzedzający znak)
+    '\f' - wysuniecie strony (np. w drukarce)
+    '\r' - powrót kursora (karetki) do początku wiersza
+    '\n' - znak nowego wiersza
+    '\"' - cudzysłów
+    '\'' - apostrof
+    '\\' - ukośnik wsteczny (backslash)
+    '\t' - tabulacja pozioma
+    '\v' - tabulacja pionowa
+    '\?' - znak zapytania (pytajnik)
+    '\ooo' - liczba zapisana w systemie oktalnym (ósemkowym), gdzie 'oo' należy zastąpić trzycyfrową liczbą w tym systemie
+    '\xhh' - liczba zapisana w systemie heksadecymalnym (szesnastkowym), gdzie 'hh' należy zastąpić dwucyfrową liczbą w tym systemie
+
+− kody formatujące kolejnych argumentów:
+
+    %c − pojedynczy znak
+    %s − łańcuch znaków
+    %d − liczba dziesiętna ze znakiem
+    %f − liczba zmiennoprzecinkowa (notacja dziesiętna)
+    %e − liczba zmiennoprzecinkowa (notacja wykładnicza)
+    %g − liczba zmiennoprzecinkowa (krótszy z formatów %f %e)
+    %u − liczba dziesiętna bez znaku
+    %x − liczba w kodzie szesnastkowym (bez znaku)
+    %o − liczba w kodzie ósemkowym (bez znaku)
+    l − przedrostek (long) stosowany przed: d u d u x o
+ 
+przykładowo:
+    
+    int i = 23;
+    printf("Liczbami naturalnymi są\n na przykład %i oraz %i.\n", 1, i);
+ Na ekranie wyświetlony zostanie:
+ 
+     Liczbami naturalnymi są 
+     na przykład 1 oraz 23.
+Najczęstsze użycie printf():
+    
+    printf("%i", i); gdy i jest typu int; zamiast %i można użyć %d
+    printf("%f", i); gdy i jest typu float lub double
+    printf("%c", i); gdy i jest typu char (i chcemy wydrukować znak)
+    printf("%s", i); gdy i jest napisem (typu char*)
+Na liście argumentów możemy mieszać ze sobą zmienne różnych typów, liczby, napisy itp. w dowolnej liczbie.Nalezy jednak pamietać żeby nie pomylić typów lub kolejności.
+>Przy włączeniu ostrzeżeń (opcja -Wall lub -Wformat w GCC) kompilator powinien nas ostrzec, gdy format nie odpowiada podanym elementom.
+    
+    int i = 5;
+    printf("%i %s %i", 5, 4, "napis"); /* powinno być: "%i %i %s" */
+Istniej możliwość wyświetlenia danych przechowywanych w pamięci(buforze)
+    
+    printf(buf);
