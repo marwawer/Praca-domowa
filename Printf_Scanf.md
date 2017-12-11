@@ -4,7 +4,7 @@ Komputer byłby całkowicie bezużyteczny, gdyby użytkownik nie mógł się z n
 Takie wczytywanie i "wyrzucanie" danych w terminologii komputerowej nazywamy wejściem (input) i wyjściem (output). Bardzo często mówi się o wejściu i wyjściu danych łącznie - input/output, albo po prostu I/O.
 W C do komunikacji z użytkownikiem służą odpowiednie funkcje. Zresztą, do wielu zadań w C służą funkcje, które są zdefiniowane w bibliotece standartowej stdio.h. 
 
-  #include <stdio.h>
+    #include <stdio.h>
 
 Używając funkcji, nie musimy wiedzieć, w jaki sposób komputer wykonuje jakieś zadanie, interesuje nas tylko to, co ta funkcja robi. Funkcje niejako "wykonują za nas część pracy", ponieważ nie musimy pisać być może dziesiątek linijek kodu, żeby np. wypisać tekst na ekranie (wbrew pozorom - kod funkcji wyświetlającej tekst na ekranie jest dość skomplikowany).
 ## Funkcja printf()
