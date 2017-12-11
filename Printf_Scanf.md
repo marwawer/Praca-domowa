@@ -82,3 +82,5 @@ dodać kody długości:
     %10f − liczba rzeczywista na 10 pozycjach
     %10.2f − liczba rzeczywista na 10 pozycjach, 2 cyfry po przecinku
      %.3f − liczba rzeczywista z dokladnoscią do 3 cyfr po przecinku 
+
+
