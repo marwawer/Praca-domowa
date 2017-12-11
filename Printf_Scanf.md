@@ -83,4 +83,38 @@ dodać kody długości:
     %10.2f − liczba rzeczywista na 10 pozycjach, 2 cyfry po przecinku
      %.3f − liczba rzeczywista z dokladnoscią do 3 cyfr po przecinku 
 
+## Funkcja scanf()
+Jest to funkcja wejścia,zdefiniowana jest w bibliotece stdio.h służy do przekazania znaków z klawiatury do  zadeklarowanej zmiennej w pamięci.
+Na początku używamy słowa kluczowego scanf,  a następnie otwieramy nawias. W cudzysłowiu ustalamy typ zmiennej tekst sterujący (format), a następnie po przecinku wprowadzamy nazwę zmiennej, do której chcemy przypisać wartość, poprzedzoną znakiem "&".
+
+    scanf ( "tekst_sterujący" , &adres_1 , &adres_2 ,  . . .  ) ;
+Kody formatujące podobne, jak dla printf():
+
+    %c    -    pojedynczy znak
+    %s    -    łańcuch znaków
+    %d    -    liczba dziesiętna ze znakiem
+    %f  lub  %e    -    liczba zmiennoprzecinkowa
+    %u    -    liczba dziesiętna bez znaku
+    %x    -    liczba w kodzie szesnastkowym (bez znaku)
+    %o    -    liczba w kodzie ósemkowym (bez znaku)
+    l    -    przedrostek stosowany przed:  d  u  x  o  (long int)
+    l    -    przedrostek stosowany przed:  f  e  (double)
+    L    -    przedrostek stosowany przed:  f  e  (long double)
+ Przykładowe uzycie funkcji scanf() i printf():
+    
+    #include<stdio.h>                             
+    int main()                                        
+    {
+    char imie[20];
+    printf("Podaj swoje imie \n");     
+    scanf("%s", &imie);                       
+    printf("Witaj %s!", imie);               
+    return 0;
+    } 
+Program wypisze
+
+    Podaj swoje imie
+Po wpisaniu np. Marek i zatwierdzenia enterem komputer przypisze Marek do zmiennej imie i wyoisze na ekranie:
+
+    Witaj Marek!
 
