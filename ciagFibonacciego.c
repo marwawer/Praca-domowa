@@ -1,5 +1,6 @@
 include<stdio.h>
 int main()
+  //Wykonał Dariusz Soborski
 {
         printf("\nWitam policzymy elementy Ciagu Fibonacciego\n");
         puts("VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");
