@@ -16,11 +16,11 @@ int main()
     switch (dzialanie)
     {
         case '+':
-	          wynik=a+b;
+	    wynik=a+b;
             printf(" Suma %f+%f =%f \n ", a, b, wynik);
             break;
         case '-':
-	          wynik=a-b;
+	    wynik=a-b;
             printf("Roznica %f - %f = %f \n ", a, b, wynik); 
             break;
         case '*':
@@ -30,13 +30,13 @@ int main()
         case '/':
             wynik = a / b;
             if (b!=0)
-            {
+            	{
                 printf("Iloraz %f/%f=%f \n ",a, b, wynik);
-            }
+            	}
             else
-            {
+            	{
                 printf(" Nie mogę podzielić %f przez 0 działanie niewykonalne \n ", a);
-            }
+            	}
 
             break;
         default:
