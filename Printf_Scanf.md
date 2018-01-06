@@ -118,7 +118,7 @@ Kody formatujące podobne, jak dla printf():
 Program wypisze
 
     Podaj swoje imie
-Po wpisaniu np. Marek i zatwierdzenia enterem komputer przypisze Marek do zmiennej imie i wyoisze na ekranie:
+Po wpisaniu np. Marek i zatwierdzenia enterem komputer przypisze Marek do zmiennej imie i wypisze na ekranie:
 
     Witaj Marek!
 
