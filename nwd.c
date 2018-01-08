@@ -1,5 +1,4 @@
 #include <stdio.h>
-// NWD największy wspoólny dzielnik 2 liczb,  metoda z odejmowaniem
 int main()
 {
     int a, b ;
